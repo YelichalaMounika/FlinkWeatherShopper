@@ -1,0 +1,14 @@
+Run Automation script:
+
+1. To run Test - execute 'test.xml' using TestNG
+2. To run in different browsers- execute 'crossbrowsing.xml' using TestNG
+3. To run in parallel- execute 'parallel.xml' using TestNG
+
+Installations Needed:
+1. TestNG
+2. Maven
+3. Java
+4. selenium,WebDriverManager
+
+
+

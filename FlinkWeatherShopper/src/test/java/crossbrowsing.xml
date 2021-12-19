@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="weathershopperTestSuite">
+	<parameter name="url"
+		value="https://weathershopper.pythonanywhere.com/" />
+
+	<test name="weathershopperTest1">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="com.flink.assignment.FlinkTest" />
+		</classes>
+	</test>
+	<test name="weathershopperTest2">
+		<parameter name="browserName" value="Edge" />
+		<classes>
+			<class name="com.flink.assignment.FlinkTest" />
+		</classes>
+	</test>
+	<test name="weathershopperTest3">
+		<parameter name="browserName" value="Firefox" />
+		<classes>
+			<class name="com.flink.assignment.FlinkTest" />
+		</classes>
+	</test>
+</suite>
